@@ -1,0 +1,41 @@
+.PrixCard{
+    text-align: center;
+    background-color: rgb(20, 148, 20);
+}
+.ButtonCard{
+     margin-left: 30%; 
+    display: flex;
+}
+.ButtonSpase{
+    margin-left: 3%;
+}
+.ButtonWidth{
+    width: 9%;
+}
+.stor{
+    display: flex;
+    
+}
+.sourieGamer{
+    margin-left: 10%;
+}
+.awayFromTheContent{
+    margin: 0% 0% 3% 0% ;
+}
+.panoProduit{
+   width: 50px; 
+}
+.panier{
+     display: flex; 
+     margin-left: 65%;
+     /* background: transparent; */
+     /* position: sticky; */
+     background:transparent;
+     position: sticky;
+     top: 0%;
+    
+}
+.buttonAchetée{
+    background-color: rgb(11, 79, 204);
+    
+}
