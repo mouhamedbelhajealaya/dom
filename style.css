@@ -5,6 +5,7 @@
 .ButtonCard{
      margin-left: 30%; 
     display: flex;
+   
 }
 .ButtonSpase{
     margin-left: 3%;
@@ -38,4 +39,15 @@
 .buttonAchetée{
     background-color: rgb(11, 79, 204);
     
+}
+.suit-heart{
+    margin-top: 10px;
+    margin-left: 35px;
+    color: red;
+}
+.suitheart{
+
+    margin-top: -320px;
+    margin-left: 0px;
+    color: red;
 }

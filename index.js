@@ -5,7 +5,9 @@ var total = document.querySelector(".total");
 var price = document.querySelector(".price");
 var ThePriceOfAllPurchases = document.querySelector(".ThePriceOfAllPurchases");
 var nombreProduitDansPanier = document.querySelector(".nombreProduitDansPanier");
-var buttonAchetée =  document.querySelector(".buttonAchetée");
+var buttonAchetée =  docu
+
+ment.querySelector(".buttonAchetée");
 
 
 btnPlus.addEventListener("click",function () {
@@ -28,21 +30,15 @@ btnMoins.addEventListener('click',function(){
     newButton.appendChild(newContent);
     var buttonAchetée =  document.querySelector(".buttonAchetée");
     document.body.insertBefore(newButton, buttonAchetée);
-
    }
-
-
-
-
-
-
-
-
 var btnPlusProduit2 = document.querySelector(".btnPlusProduit2");
 var countProduit2 = document.querySelector("#countProduit2");
 var btnMoinsProduit2 = document.querySelector(".btnMoinsProduit2");
 var totalProduit2 = document.querySelector(".totalProduit2");
-var priceProduit2 = document.querySelector(".priceProduit2");
+var priceProduit2 
+
+
+= document.querySelector(".priceProduit2");
 var nombreProduitDansPanier = document.querySelector(".nombreProduitDansPanier");
 
 
@@ -62,6 +58,7 @@ btnMoinsProduit2.addEventListener('click',function(){
         nombreProduitDansPanier.innerHTML=parseInt(nombreProduitDansPanier.innerHTML) - parseInt(1)
     } 
   });
+
 
 
 
